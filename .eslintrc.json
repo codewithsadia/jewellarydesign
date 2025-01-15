@@ -1,3 +1,11 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"]
 }
+  {
+    "rules": {
+      "no-console": "off", // ye console.log warnings ko disable karega
+      "react/prop-types": "off" // ye React prop-types related warnings ko disable karega
+    }
+  };
+  
+
