@@ -37,7 +37,7 @@ text-align: left;
         {/* left Image Section */}
         <div className='flex flex-col lg:flex-row items-center lg:items-start space-x-6'>
           <Image
-            src="/lady.png"
+            src="/image/lady.svg"
             alt="Lady"
             width={300}  // Adjust to a smaller width if needed
             height={400} // Adjust to a smaller height if needed
