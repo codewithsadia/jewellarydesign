@@ -6,7 +6,7 @@ const Herosection = () => {
     <div className='h-screen p-10 bg-white'>
       <div className='flex flex-col lg:flex-row items-center lg:items-start'>
         
-        {/* right Text Section */}
+        {/* right Text Section here */}
         <div className='lg:w-1/1 mb-5 lg:mb-0'>
           <h1 className="font-serif font-bold text-[30px] tracking-[0.025em] leading-tight mb-4  hover:text-gray-600">
             IMPECCABLE
@@ -15,6 +15,7 @@ const Herosection = () => {
             <br />
             FINESSE
           </h1>
+          
           <p className="font-Libre Bodoni;
 font-size: 29.24px;
 font-weight: 500;
@@ -36,7 +37,7 @@ text-align: left;
         {/* left Image Section */}
         <div className='flex flex-col lg:flex-row items-center lg:items-start space-x-6'>
           <Image
-            src="/lady.png"
+            src="/image/lady.svg"
             alt="Lady"
             width={300}  // Adjust to a smaller width if needed
             height={400} // Adjust to a smaller height if needed
